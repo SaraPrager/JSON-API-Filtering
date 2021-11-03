@@ -1,0 +1,20 @@
+{
+  "name": "json-api-filtering-poc",
+  "version": "1.0.0",
+  "description": "A basic PoC, demonstrates how to use json api filtering using NodeJs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Sara Prager",
+  "license": "ISC",
+  "dependencies": {
+    "jsonapi-serializer": "3.5.6",
+    "restify": "7.0.0",
+    "underscore": "1.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "1.17.2"
+  }
+}
